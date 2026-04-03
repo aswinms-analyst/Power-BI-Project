@@ -113,7 +113,7 @@ Ensures comparability across stations.
 Analysis and Visualizations
 
 India Air Quality Index
-
+<img width="1289" height="719" alt="Image" src="https://github.com/user-attachments/assets/2de136d9-b73c-476c-b76b-529600f51c37" />
 
 Pie Chart
 The pie chart highlights the relative contribution of different pollutants to India’s overall AQI values. PM10 (33.62%) and PM2.5 (33.28%) together account for nearly two-thirds of the total AQI burden, making particulate matter the dominant factor in poor air quality. In contrast, gaseous pollutants such as Ozone (10.66%), CO (9.77%), NO2 (7.99%), and SO2 (3.38%) contribute smaller shares.
