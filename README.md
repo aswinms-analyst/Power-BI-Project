@@ -1,6 +1,7 @@
 # India’s Air Quality 2025
-
-Project Objective :
+> **Tools:** Power BI | Excel | DAX | Power Query | Data Modeling  
+> **Domain:** Environment | Environment Analysis
+# Project Objective :
 
 The objective of this project is to analyze, visualize, and communicate air quality data across Indian cities and states using pollutant-level monitoring information. By integrating station-level readings (PM2.5, PM10, NO2, SO2, CO, Ozone, NH3) with geospatial and concern-level classifications, the dashboard aims to:
 Monitor Pollution Trends
@@ -17,10 +18,11 @@ Present pollutant breakdowns (e.g., PM2.5 vs PM10 dominance) and monitoring boar
 The goal of this project is to develop a comprehensive, interactive dashboard that transforms raw air quality monitoring data into actionable insights for policymakers, environmental boards, researchers, and the public.
 
 
-Data Sources :
+# Data Sources :
 Data Source : Indian Government website https://www.google.com/url?q=https://www.data.gov.in/catalog/real-time-air-quality-index&sa=D&source=editors&ust=1770185091263853&usg=AOvVaw0RR81SNRhC5ceWW-RTCqRZ
 Domain: Environment
-Problem Statement :
+
+# Problem Statement :
 
 India faces a critical challenge in monitoring and managing air quality across its diverse states and cities. Rapid urbanization, industrial activity, and vehicular emissions have led to rising levels of pollutants such as PM2.5, PM10, NO2, SO2, CO, Ozone, and NH3, which pose severe risks to public health and the environment.
 Despite the availability of monitoring stations and raw pollutant data, the information is often:
@@ -29,11 +31,11 @@ Despite the availability of monitoring stations and raw pollutant data, the info
 • 	Lacking in actionable insights, making it hard for policymakers to prioritize interventions.
 • 	Geospatially scattered, preventing clear identification of pollution hotspots and regional disparities.
 
-Attribute Details :
+# Attribute Details :
 
 <img width="753" height="481" alt="Image" src="https://github.com/user-attachments/assets/9eb88073-9718-42fd-931f-f9547353079f" />
 
-Tools :
+# Tools :
 Microsoft Excel 
 Data Cleaning 
 Data Transformation 
@@ -49,7 +51,7 @@ Interactive dashboard creation
 Risk categorization 
 Drill-down analysis
 
-Data Pre-Processing :
+# Data Pre-Processing :
 Data Cleaning
 Standardized Column Names
 Raw dataset had inconsistent headers (country, state, city, station, pollutant_id, etc.).
@@ -62,14 +64,14 @@ Corrected Station Metadata
 Raw dataset had station names with appended board identifiers (e.g., “Naharlagun, Naharlagun - APSPCB”).
 Cleaned dataset separates Station and Monitoring Board into distinct columns (e.g., “MIT Daudpur Kothi, Muzaffarpur” and “BSPCB”).
 
-Date/Time Handling
+# Date/Time Handling
 Raw dataset had last_update timestamps.
 Cleaned dataset removed them, focusing on pollutant values and AQI classification.
 Consistent Units & Values
 Raw pollutant values (pollutant_min, pollutant_max, pollutant_avg) were retained but normalized.
 Cleaned dataset ensures these values are numeric and aligned for AQI calculation.
 
-Data Imputation :
+# Data Imputation :
 AQI Calculation
 Added AQI range column by applying AQI formula/lookup tables to pollutant averages.
 Example: For NO2 avg = 2 → AQI ≈ 3.33 (Good).
@@ -91,9 +93,9 @@ Ensures comparability across stations.
 
 
 
-Analysis and Visualizations
+# Analysis and Visualizations
 
-India Air Quality Index
+India Air Quality Index 2025
 <img width="1289" height="719" alt="Image" src="https://github.com/user-attachments/assets/2de136d9-b73c-476c-b76b-529600f51c37" />
 
 Pie Chart
@@ -121,13 +123,13 @@ The dual gauge indicators display the average concentrations of PM10 (253.29) an
 
 
 
-Interactive Features: 
+# Interactive Features: 
 • Slicers (Concern Level and State and Union Territory) 
 • Drill-down capability
  • Clear titles and labels
  • Consolidated layout
 
-Insight
+# Insight
 
 Particulate Dominance: PM10 and PM2.5 together represent ~67% of AQI values, underscoring the urgent need for targeted particulate reduction strategies.
 Regional Hotspots: Northern states—particularly Uttar Pradesh, Delhi, Bihar, and Haryana—consistently register Very Poor to Severe AQI levels, making them priority intervention zones.
@@ -136,21 +138,21 @@ Secondary Risks: Ozone and CO collectively contribute ~20% of AQI values, pointi
 Baseline Concern: The majority of readings fall within Moderate to Poor categories, with “Good AQI” being rare. This indicates that unhealthy air quality is the prevailing baseline across India.
 Coverage Gaps: Monitoring stations are concentrated in urban clusters, leaving rural exposures underrepresented. This risks underestimating pollution from biomass burning, dust storms, and agricultural practices.
 
-Descriptive Analysis
+# Descriptive Analysis
 
 The dataset paints a clear picture of India’s air quality crisis—with Delhi and industrial hubs consistently showing hazardous levels of PM2.5 and PM10, while smaller towns remain relatively cleaner. This duality highlights the need for region-specific strategies: stricter emission controls in industrial/urban centers and preventive monitoring in smaller towns.
 
-Diagnostic Analysis
+# Diagnostic Analysis
 
 The dataset shows that particulate matter (PM2.5 & PM10) is the single most consistent root cause of poor AQI, with industrial clusters and dense urban centers being the worst affected. Secondary pollutants like Ozone amplify the problem in high-NOx regions like Delhi. Smaller towns remain cleaner largely due to lower industrialization and traffic density.
 
-Prescriptive Insight
+# Prescriptive Insight
 
 Short-term actions: Dust control, stricter vehicle checks, real-time AQI alerts.
 Medium-term actions: Industrial emission monitoring, EV adoption, green buffers.
 Long-term actions: Renewable energy transition, integrated urban planning, regional collaboration.
 
-Conclusion
+# Conclusion
 
 The India Air Quality dataset provides a comprehensive view of pollution levels across multiple states, cities, and monitoring stations. By capturing pollutant concentrations (PM2.5, PM10, NO2, SO2, CO, Ozone, NH3) alongside AQI ranges and concern levels, the dataset highlights both regional disparities and pollutant-specific drivers of air quality deterioration.
 
