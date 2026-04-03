@@ -31,27 +31,8 @@ Despite the availability of monitoring stations and raw pollutant data, the info
 
 Attribute Details :
 
-Country
-The country where the monitoring station is located (e.g., India).
-State
-The state or union territory within the country (e.g., Bihar, Delhi, Gujarat).
-City
-The city where the monitoring station is situated.
-Station
-Specific monitoring station name or location identifier.
-Latitude
-Geographic latitude coordinate of the monitoring station.
-Longitude
-Geographic longitude coordinate of the monitoring station.
-Pollutant_id
-Type of pollutant measured (e.g., PM2.5, PM10, NO2, SO2, CO, Ozone, NH3).
-Pollutant_min
-Minimum recorded concentration of the pollutant at the station.
-Pollutant_max
-Maximum recorded concentration of the pollutant at the station.
-Pollutant_avg
-Average concentration of the pollutant at the station.
-
+<img width="753" height="481" alt="Image" src="https://github.com/user-attachments/assets/9eb88073-9718-42fd-931f-f9547353079f" />
+ithub.com/user-attachments/assets/2de136d9-b73c-476c-b76b-529600f51c37" />
 Tools :
 Microsoft Excel 
 Data Cleaning 
