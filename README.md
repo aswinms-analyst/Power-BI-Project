@@ -32,7 +32,7 @@ Despite the availability of monitoring stations and raw pollutant data, the info
 Attribute Details :
 
 <img width="753" height="481" alt="Image" src="https://github.com/user-attachments/assets/9eb88073-9718-42fd-931f-f9547353079f" />
-ithub.com/user-attachments/assets/2de136d9-b73c-476c-b76b-529600f51c37" />
+
 Tools :
 Microsoft Excel 
 Data Cleaning 
